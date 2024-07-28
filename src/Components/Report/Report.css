@@ -1,0 +1,76 @@
+#jermydiv{
+    height: 55%;
+    width: 20%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color:hsl(235, 46%, 20%) ;
+}
+
+#topdiv{
+    width: 100%;
+    height: 70%;
+    background-color:hsl(235, 45%, 61%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    row-gap: 10px;
+   
+    
+}
+#jermyimg{
+    height: 60px;
+    width: 60px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+ #buttomdiv{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+ }
+ .report{
+    font-size: 12px;
+    color: hsl(236, 100%, 87%);
+ }
+ .bold{
+    color: white;
+    
+ }
+ .daily{
+    color: rgb(204, 202, 202);
+    font-size: 14px;
+ }
+
+
+
+ @media screen and (max-width:600px){
+   #jermydiv{
+     width: 90%;
+     height: 35%;
+   }
+   #buttomdiv{
+      flex-direction: row;
+      column-gap: 35px;
+      height: 50px;
+   }
+   #topdiv{
+      height: 180px;
+   }
+ }

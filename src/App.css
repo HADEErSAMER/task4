@@ -1,0 +1,18 @@
+#main{
+  width: 70%;
+  height: 100%;
+  background-color:hsl(226, 43%, 10%);
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  
+}
+
+@media screen and (max-width:600px){
+  #main{
+    height: auto;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+}

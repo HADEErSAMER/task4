@@ -1,0 +1,19 @@
+#selectionwrapper{
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+ 
+ 
+    
+    
+    
+}
+
+@media screen and (max-width:600px){
+    #selectionwrapper{
+      flex-direction: column;
+      width: 100%;
+    }
+
+  }
+
