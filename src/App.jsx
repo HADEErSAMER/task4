@@ -11,7 +11,8 @@ function App() {
   
     {
         "Selectioncolor": "hsl(15, 100%, 70%)",
-        "sideimg": "/public/icon-work.svg",
+        "sideimg": "public/images/icon-work.svg",
+       
         "actifitylabel": "Work",
         "time": "32hrs",
         "timedetails": "Last Week- 36hrs",
@@ -19,7 +20,7 @@ function App() {
     },
     {
         "Selectioncolor": "hsl(195, 74%, 62%)",
-        "sideimg": "/public/icon-play.svg",
+        "sideimg": "/public/images/icon-play.svg",
         "actifitylabel": "Play",
         "time": "10hrs",
         "timedetails": "Last Week- 8hrs",
@@ -27,7 +28,7 @@ function App() {
     },
     {
         "Selectioncolor": "hsl(348, 100%, 68%)",
-        "sideimg": "/public/icon-study.svg",
+        "sideimg": "/public/images/icon-study.svg",
         "actifitylabel": "Study",
         "time": "4hrs",
         "timedetails": "Last Week- 7hrs",
@@ -35,7 +36,7 @@ function App() {
     },
     {
         "Selectioncolor": "hsl(145, 58%, 55%)",
-        "sideimg": "/public/icon-exercise.svg",
+        "sideimg": "/public/images/icon-exercise.svg",
         "actifitylabel": "Exercise",
         "time": "4hrs",
         "timedetails": "Last Week- 5hrs",
@@ -43,7 +44,7 @@ function App() {
     },
     {
         "Selectioncolor": "hsl(264, 64%, 52%)",
-        "sideimg": "/public/icon-social.svg",
+        "sideimg": "/public/images/icon-social.svg",
         "actifitylabel": "Social",
         "time": "5hrs",
         "timedetails": "Last Week- 10hrs",
@@ -51,7 +52,7 @@ function App() {
     },
     {
         "Selectioncolor": " hsl(43, 84%, 65%)",
-        "sideimg": "/public/icon-self-care.svg",
+        "sideimg": "/public/images/icon-self-care.svg",
         "actifitylabel": "SelfCare",
         "time": "2hrs",
         "timedetails": "Last Week- 2hrs",
