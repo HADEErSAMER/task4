@@ -4,6 +4,7 @@ import elli from "../../assets/icon-ellipsis.svg"
 
 
 function Selectionitem(props){
+    console.log(props.Selectioncolor)
     return(
         
         <div id="minidiv" style={{backgroundColor: props.Selectioncolor}}>
@@ -17,7 +18,7 @@ function Selectionitem(props){
         <img id="elli" src={elli}/>
         </div>
          <label id="bolder">{props.time}</label>
-        <label className="report">{props.timedetails} </label>
+        <label id="lastlabel">{props.timedetails} </label>
         </div>
        
 

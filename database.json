@@ -1,58 +1,61 @@
 {
-[ 
-    "germyimg":"germyimg",
-   " reportlabel":"Reportfor",
-    "germyname":"Jeremy Robson",
-    "daily":"Daily",
-    "weekly":"Weekly",
-    "monthly":"Monthly",
-    "id":1,
-    ],
 
-  {
-"sideimg":"work",
-"actifitylabel":"Work",
-"time":"32hrs",
-"timedetails":"Last Week- 36hrs",
-"id:2,
-  },
-
-  {
-    sideimg:play,
-    actifitylabel:"Play",
-    time:"10hrs",
-    timedetails:"Last Week- 8hrs", 
-    id:3,
-  },
-  {
-    sideimg:study,
-    actifitylabel:"Study",
-    time:"4hrs",
-    timedetails:"Last Week- 7hrs",
-    id:4,
-  },
-
-  {
-    sideimg:ex,
-    actifitylabel:"Exercise",
-    time:"4hrs",
-    timedetails:"Last Week- 5hrs",
-    id:5,
-  },
-
-  {
-    sideimg:social,
-    actifitylabel:"Social",
-    time:"5hrs",
-    timedetails:"Last Week- 10hrs",
-    id:6,
-  },
-
-  {
-    sideimg:care,
-    actifitylabel:"SelfCare",
-    time:"2hrs",
-    timedetails:"Last Week- 2hrs",
-    id:7,
-  },
-}
+    "posts": [
+     
+    
+      {
+        "Selectioncolor":"red",
+    "sideimg":"src/assets/icon-work.svg",
+    "actifitylabel":"Work",
+    "time":"32hrs",
+    "timedetails":"Last Week- 36hrs",
+    "id":"2"
+      },
+    
+      {
+        "Selectioncolor":"red",
+        "sideimg":"src/assets/icon-play.svg",
+        "actifitylabel":"Play",
+        "time":"10hrs",
+        "timedetails":"Last Week- 8hrs", 
+        "id":"3"
+      },
+      {
+        "Selectioncolor":"red",
+        "sideimg":"src/assets/icon-study.svg",
+        "actifitylabel":"Study",
+        "time":"4hrs",
+        "timedetails":"Last Week- 7hrs",
+        "id":"4"
+      },
+    
+      {
+        "Selectioncolor":"red",
+        "sideimg":"src/assets/icon-exercise.svg",
+        "actifitylabel":"Exercise",
+        "time":"4hrs",
+        "timedetails":"Last Week- 5hrs",
+        "id":"5"
+      },
+    
+      {
+        "Selectioncolor":"red",
+        "sideimg":"src/assets/icon-social.svg",
+        "actifitylabel":"Social",
+        "time":"5hrs",
+       " timedetails":"Last Week- 10hrs",
+        "id":"6"
+      },
+    
+      {
+        "Selectioncolor":"red",
+        "sideimg":"src/assets/icon-self-care.svg",
+        "actifitylabel":"SelfCare",
+        "time":"2hrs",
+        "timedetails":"Last Week- 2hrs",
+        "id":"7"
+      } 
+     
+    ]
+    
+  }

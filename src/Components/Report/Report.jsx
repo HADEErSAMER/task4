@@ -5,8 +5,10 @@ function Report (){
 <div id='jermydiv' >
 <div id='topdiv'>
 <img id='jermyimg' src={jermyimg}/>
+<div id='reportdiv'>
 <label className='report'>Report For</label>
 <h2 className='bold'>Jermey Robson</h2>
+</div>
 </div>
 <div id='buttomdiv'>
 <label className='daily'>Daily</label>

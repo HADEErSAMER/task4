@@ -1,12 +1,23 @@
 #main{
-  width: 70%;
+  width: 80%;
   height: 100%;
   background-color:hsl(226, 43%, 10%);
   display: flex;
-  
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   
+}
+.row{
+  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  align-self: center;
+  padding: 1rem;
+}
+.row div{
+  border-radius: 10px;
 }
 
 @media screen and (max-width:600px){
@@ -14,5 +25,14 @@
     height: auto;
     flex-direction: column;
     row-gap: 15px;
+    padding: 40px;
+    width: 90%;
+    
   }
+  .row{
+    grid-template-columns: repeat(1,1fr);
+    
+   
+  }
+  
 }

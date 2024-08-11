@@ -1,6 +1,20 @@
+@font-face {
+  font-family:"Rubik" ;
+  src: url(assets/Fonts/Rubik-Light.ttf);
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
 html{
     height: 100%;
     width: 100%;
+    font-family: "Rubik";
 }
 
 body{
@@ -17,6 +31,20 @@ body{
     justify-content: center;
     align-items: center;
     background-color: black;
+    margin: 0;
+  }
+
+  @media screen and (max-width:600px){
+    html{
+      height: auto;
+      
+    }
+    body{
+      height: auto;
+    }
+    #root{
+      height: auto;
+    }
   }
   
   
