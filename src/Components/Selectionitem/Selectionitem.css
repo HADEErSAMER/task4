@@ -82,9 +82,10 @@
             font-size: 25px;
         }
         #lastlabel{
-            margin-left: 150px;
+            margin-left: 130px;
             position: relative;
             bottom: 20px;
+            width: 140px;
               
         } 
 
